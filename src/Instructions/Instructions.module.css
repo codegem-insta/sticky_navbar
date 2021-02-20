@@ -30,11 +30,11 @@
 
 @keyframes moving {
     from {
-        transform: translateX(25px);
+        transform: translateY(25px);
     }
 
     to {
-        transform: translateX(-25px);
+        transform: translateY(-25px);
     }    
 }
 

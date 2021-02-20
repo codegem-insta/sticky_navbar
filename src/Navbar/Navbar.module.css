@@ -1,0 +1,41 @@
+.Navbar {
+  width: 100%;
+  min-height: 150px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #425874;
+}
+
+@keyframes dropdown {
+    from {
+        top: -100px;
+    }
+
+    to {
+        top: 0px;
+    }
+}
+
+.Scrolled {
+  position: fixed;
+  left: 0;
+  animation: dropdown 0.3s ease-out;
+}
+
+
+.Navigation {
+    color: white;
+    font-size: 50px;
+}
+
+.Navigation > ol {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 0px 20px;
+}

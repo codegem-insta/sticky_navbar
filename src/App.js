@@ -1,9 +1,13 @@
+import Navbar from './Navbar/Navbar';
 import './style/App.css';
+import UserPosts from './UserPosts/UserPosts';
 
 function App() {
   return (
     <div className="App">
-      Hello world!
+      <Navbar />
+
+      <UserPosts />
     </div>
   );
 }
