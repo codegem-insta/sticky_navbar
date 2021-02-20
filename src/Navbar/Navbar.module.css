@@ -7,11 +7,12 @@
   align-items: center;
 
   background-color: #425874;
+  z-index: 3;
 }
 
 @keyframes dropdown {
     from {
-        top: -100px;
+        top: -150px;
     }
 
     to {

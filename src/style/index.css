@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
+  cursor: none;
+  overscroll-behavior-y: none;
   /*
   cursor: none; // Hide cursor
   overscroll-behavior-y: none; // Disable bounce at the bottom

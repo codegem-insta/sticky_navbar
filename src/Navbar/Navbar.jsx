@@ -16,14 +16,14 @@ function useNavbarClass() {
 
   let navBarClasses = scrolled ? [style.Navbar, style.Scrolled] : [style.Navbar];
 
-  return navBarClasses;
+  return navBarClasses.join(" ");
 }
 
 function Navbar() {
-  const finalClasses = useNavbarClass();
+  const finalClass = useNavbarClass();
 
   return (
-    <header className={finalClasses.join(" ")}>
+    <header className={finalClass}>
       <div className={style.Logo}>{/* your logo */}</div>
 
       <nav className={style.Navigation}>
